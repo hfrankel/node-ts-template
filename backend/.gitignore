@@ -1,0 +1,14 @@
+# Ignore compiled output
+dist/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables
+*.env
+!.env.template
+
+# Ignore any private files
+src/*.json
+src/*.csv
+src/*.xlsx
