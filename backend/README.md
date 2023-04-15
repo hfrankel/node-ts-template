@@ -36,13 +36,25 @@ The application should now be running on http://localhost:3000.
 
 The project structure is as follows:
 
-node-typescript-template/
-dist/ # Compiled TypeScript code
-src/ # TypeScript source code
-index.ts # Main entry point for the application
-.gitignore # Git ignore file
-package.json # Node.js package file
-tsconfig.json # TypeScript configuration file
+```
+backend
+ ┣ dist
+ ┣ src
+ ┃ ┣ controllers
+ ┃ ┣ models
+ ┃ ┣ routes
+ ┃ ┣ services
+ ┃ ┣ app.ts
+ ┃ ┗ index.ts
+ ┣ test
+ ┣ .env.template
+ ┣ .gitignore
+ ┣ README.md
+ ┣ nodemon.json
+ ┣ package.json
+ ┣ tsconfig.json
+ ┗ yarn.lock
+```
 
 
 ## TypeScript Configuration
