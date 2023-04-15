@@ -44,29 +44,26 @@ index.ts # Main entry point for the application
 package.json # Node.js package file
 tsconfig.json # TypeScript configuration file
 
-arduino
-Copy code
 
 ## TypeScript Configuration
 
 This template includes a `tsconfig.json` file that defines the TypeScript compiler options. The default configuration includes the following options:
 
+```
 {
-"compilerOptions": {
-"target": "es6",
-"module": "commonjs",
-"outDir": "dist",
-"rootDir": "src",
-"strict": true,
-"esModuleInterop": true
-},
-"include": [
-"src/**/*"
-]
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
-
-markdown
-Copy code
+```
 
 ## Scripts
 
